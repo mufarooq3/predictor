@@ -219,11 +219,11 @@
     function success(data1) {
         console.log(data1);
         data=parseFloat(data1);
-        $('#price').text("$"+data);
-        $('#normalPrice').text("$"+(data-(data*0.1))+" - "+"$"+data);
-        $('#cheapPrice').text("$"+(data-(data*0.35))+" - "+"$"+(data-(data*0.1)));
-        $('#superCheapPrice').text("$"+(data-(data*0.5))+" - "+"$"+(data-(data*0.35)));
-        $('#hyperCheapPrice').text("< $"+(data-(data*0.5)))
+        $('#price').text("$"+data.toFixed(2));
+        $('#normalPrice').text("$"+(data-(data*0.1).toFixed(2))+" - "+"$"+data.toFixed(2));
+        $('#cheapPrice').text("$"+(data-(data*0.35).toFixed(2))+" - "+"$"+(data-(data*0.1)).toFixed(2));
+        $('#superCheapPrice').text("$"+(data-(data*0.5).toFixed(2))+" - "+"$"+(data-(data*0.35)).toFixed(2));
+        $('#hyperCheapPrice').text("< $"+(data-(data*0.5)).toFixed(2))
     }
 </script>
 
