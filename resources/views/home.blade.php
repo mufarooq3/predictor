@@ -95,7 +95,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <br><br>
-                <h2><label class="text text-success pull-right">Normal Price: </label></h2>
+                <h2><label class="text text-success pull-right">Normal: </label></h2>
             </div>
             <div class="col-md-6 col-sm-6">
                 <br><br>
@@ -106,7 +106,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <br><br>
-                <h2><label class="text text-success pull-right">Cheap Price: </label></h2>
+                <h2><label class="text text-success pull-right">Cheap: </label></h2>
             </div>
             <div class="col-md-6 col-sm-6">
                 <br><br>
@@ -117,7 +117,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <br><br>
-                <h2><label class="text text-success pull-right">Super Cheap Price: </label></h2>
+                <h2><label class="text text-success pull-right">Super Cheap: </label></h2>
             </div>
             <div class="col-md-6 col-sm-6">
                 <br><br>
@@ -128,7 +128,7 @@
         <div class="row">
             <div class="col-md-6 col-sm-6">
                 <br><br>
-                <h2><label class="text text-success pull-right">Super Cheap Price: </label></h2>
+                <h2><label class="text text-success pull-right">Hyper Cheap: </label></h2>
             </div>
             <div class="col-md-6 col-sm-6">
                 <br><br>
