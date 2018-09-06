@@ -124,6 +124,17 @@
                 <h2><label id="superCheapPrice" class="text text-info">$0</label></h2>
             </div>
         </div>
+        
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <br><br>
+                <h2><label class="text text-success pull-right">Super Cheap Price: </label></h2>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <br><br>
+                <h2><label id="hyperCheapPrice" class="text text-info">$0</label></h2>
+            </div>
+        </div>
     </form>
 
     <datalist id="make">
@@ -209,9 +220,10 @@
         console.log(data1);
         data=parseFloat(data1);
         $('#price').text("$"+data);
-        $('#normalPrice').text("$"+(data-(data*0.1)));
-        $('#cheapPrice').text("$"+(data-(data*0.35)));
-        $('#superCheapPrice').text("$"+(data-(data*0.5)));
+        $('#normalPrice').text("$"+(data-(data*0.1))+" - "+"$"+data);
+        $('#cheapPrice').text("$"+(data-(data*0.35))+" - "+"$"+(data-(data*0.1)));
+        $('#superCheapPrice').text("$"+(data-(data*0.5))+" - "+"$"+(data-(data*0.35)));
+        $('#hyperCheapPrice').text("< $"+(data-(data*0.5)))
     }
 </script>
 
